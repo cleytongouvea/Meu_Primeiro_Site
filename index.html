@@ -3,7 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Meu Primeiro Site</title>
-  
+
+  <!-- Importando a fonte Cinzel Decorative do Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&display=swap" rel="stylesheet">
+
   <!-- Aqui começa o CSS! Tudo dentro de <style> serve para embelezar o site -->
   <style>
     /* O "body" afeta a página inteira */
@@ -17,7 +22,13 @@
 
     /* Estilizando apenas o título principal */
     h1 {
-      color: #0056b3; /* Pinta o título de azul escuro */
+      font-family: 'Cinzel Decorative', Georgia, serif; /* Fonte decorativa com fallback */
+      font-size: clamp(2.2rem, 4.5vw, 3.5rem); /* Tamanho maior e responsivo */
+      font-weight: 700; /* Peso encorpado */
+      letter-spacing: 0.04em; /* Espaçamento entre as letras */
+      color: #003d82; /* Azul mais profundo para destacar o título */
+      text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.14); /* Sombra suave para dar profundidade */
+      margin-bottom: 12px;
     }
 
     /* Estilizando a imagem */
@@ -36,7 +47,6 @@
     }
   </style>
 </head>
-
 <body>
   <h1>Jornada De Evolução</h1>
   <br>
@@ -50,13 +60,13 @@
     <li>Aprender a colorir e estilizar com CSS</li>
     <li>Publicar meu site para o mundo ver</li>
   </ul>
-<h2>A Evolução Durante o Processo:</h2>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxRiZ3IOkjlVHTgvGeq7NZ0lzSrwsbDhBtDfokB5PrOg&s=10" alt="Evolução do macaco até o homem de terno">
 
-<h2>Um Link Útil:</h2>
-<p>Sempre que eu tiver dúvidas, vou pesquisar no <a href="https://www.google.com" target="_blank">Google</a>.</p>
+  <h2>A Evolução Durante o Processo:</h2>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxRiZ3IOkjlVHTgvGeq7NZ0lzSrwsbDhBtDfokB5PrOg&s=10" alt="Evolução do macaco até o homem de terno">
 
+  <h2>Um Link Útil:</h2>
+  <p>Sempre que eu tiver dúvidas, vou pesquisar no <a href="https://www.google.com" target="_blank">Google</a>.</p>
 </body>
 </html>
-
+/*Atualiza fonte do título para Cinzel Decorative
 
